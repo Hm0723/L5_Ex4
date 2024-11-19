@@ -112,7 +112,7 @@ const renderSectionHeader = ({ section: { carClass, color } }) => (
 
 const App = () => {
   return (
-      <View style={styles.container}> d
+      <View style={styles.container}>
         <StatusBar hidden={true} />
         <SectionList
             sections={carData}
